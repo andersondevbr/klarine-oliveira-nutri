@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Klarine Oliveira | Nutricionista</title>
+<meta name="description" content="Nutricionista Klarine Oliveira (CRN 17599). Acompanhamento para emagrecimento e hipertrofia, presencial ou online, com plano alimentar individualizado.">
+<meta name="theme-color" content="#3A2434">
+<meta property="og:title" content="Klarine Oliveira | Nutricionista">
+<meta property="og:description" content="Emagrecimento e hipertrofia com um plano que cabe na tua rotina. Atendimento presencial e online.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/og.jpg">
+<link rel="preload" as="image" href="img/klarine-ensaio-640.jpg" media="(max-width: 899px)">
+<link rel="preload" as="image" href="img/klarine-ensaio-1060.jpg" media="(min-width: 900px)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233A2434'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='44' text-anchor='middle' fill='%23E8D9C3'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Onest:wght@400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ameixa:#3A2434;
+  --ameixa-2:#4B3044;
+  --champanhe:#E8D9C3;
+  --leite:#F6F1EB;
+  --ouro:#A88247;
+  --ouro-texto:#7C5D2C;
+  --lilas:#C9B6DA;
+  --texto-suave:#5E4E58;
+  --linha:#D9CBBA;
+  --serif:"Bodoni Moda", "Didot", Georgia, serif;
+  --sans:"Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --raio:6px;
+  --larg:1120px;
+  --pad:22px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--leite);color:var(--ameixa);font-family:var(--sans);font-size:17px;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ouro);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;line-height:1.08;letter-spacing:-.005em}
+p{margin:0}
+.wrap{max-width:var(--larg);margin:0 auto;padding:0 var(--pad)}
+.pular{position:absolute;left:-999px;top:0;background:var(--ameixa);color:var(--leite);padding:12px 16px;z-index:20}
+.pular:focus{left:12px;top:12px}
+
+
+/* logo (fiel a marca: Montserrat + monograma N em Didone) */
+.logo{display:inline-flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--logo,#6E4314);line-height:1}
+.logo-nome{font-family:"Montserrat",sans-serif;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.logo-fio{display:block;height:1px;background:currentColor;opacity:.7}
+.logo-sub{font-family:"Montserrat",sans-serif;font-weight:400;letter-spacing:.32em;margin-right:-.32em;white-space:nowrap}
+.logo-p .logo-nome{font-size:15px}
+.logo-p .logo-fio{width:62%;margin:5px 0 4px}
+.logo-p .logo-sub{font-size:8.5px}
+.selo{position:relative;display:inline-flex;align-items:center;justify-content:center;padding:clamp(28px,8vw,46px) 0}
+.selo-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:400;font-size:clamp(150px,44vw,250px);line-height:1;color:var(--ouro);opacity:.16;pointer-events:none;user-select:none}
+.selo .logo{position:relative}
+.selo .logo-nome{font-size:clamp(27px,8.2vw,44px)}
+.selo .logo-fio{width:58%;margin:clamp(9px,2.4vw,13px) 0 clamp(8px,2.2vw,12px)}
+.selo .logo-sub{font-size:clamp(11px,3.1vw,15px)}
+
+/* topo */
+.topo{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:16px;padding-bottom:16px}
+.marca{font-family:var(--serif);font-size:21px;text-decoration:none;line-height:1}
+.topo nav{display:flex;gap:26px;align-items:center}
+.topo nav a{text-decoration:none;font-size:15px;padding:12px 0}
+.topo nav .so-desk{display:none}
+.link-agendar{font-weight:500;text-decoration:underline !important;text-underline-offset:6px;text-decoration-thickness:1px}
+
+/* hero */
+.hero{padding-top:8px;padding-bottom:56px}
+.hero-grade{display:flex;flex-direction:column;gap:28px}
+.palco{position:relative;padding:12px;max-width:460px;width:100%;margin:0 auto}
+.palco::before{content:"";position:absolute;inset:0;border:1px solid var(--ouro);border-radius:999px 999px 12px 12px;opacity:.6;pointer-events:none}
+.retrato{position:relative;margin:0;aspect-ratio:3/4;border-radius:999px 999px var(--raio) var(--raio);background:#2B2422;overflow:hidden}
+.retrato img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%}
+.hero-marca{display:flex;justify-content:center}
+.hero-texto{display:flex;flex-direction:column;gap:22px}
+.lead{font-size:19px;color:var(--texto-suave);max-width:30em}
+.acoes{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center}
+.botao{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;background:var(--ameixa);color:var(--leite);text-decoration:none;font-weight:500;border-radius:var(--raio);transition:background .2s}
+.botao:hover{background:var(--ameixa-2)}
+.crn{font-size:14px;color:var(--texto-suave)}
+
+/* proposito */
+.proposito{background:var(--ameixa);color:var(--champanhe)}
+.proposito .wrap{padding-top:72px;padding-bottom:72px}
+.proposito-grade{display:flex;flex-direction:column;gap:36px}
+.proposito figure{margin:0;border-radius:var(--raio);overflow:hidden;aspect-ratio:4/5;max-width:420px;background:var(--ameixa-2)}
+.proposito figure img{width:100%;height:100%;object-fit:cover}
+.proposito blockquote{margin:0;font-family:var(--serif);font-size:clamp(28px,7.4vw,48px);line-height:1.18;max-width:20em}
+.proposito cite{display:block;margin-top:22px;font-style:normal;font-family:var(--sans);font-size:15px;color:var(--lilas)}
+
+/* secoes */
+section.bloco{padding-top:72px;padding-bottom:72px}
+.titulo{font-size:clamp(34px,8.6vw,54px);margin-bottom:28px;max-width:14em}
+.texto{color:var(--texto-suave);max-width:36em}
+.texto + .texto{margin-top:16px}
+
+/* pra quem */
+.publicos{display:flex;flex-direction:column;border-top:1px solid var(--linha)}
+.publico{padding:26px 0;border-bottom:1px solid var(--linha);display:flex;flex-direction:column;gap:8px}
+.publico h3{font-size:clamp(26px,6.6vw,34px)}
+.publico p{color:var(--texto-suave);max-width:34em}
+
+/* plano do dia */
+.plano{background:var(--champanhe)}
+.folha{background:var(--leite);border-radius:var(--raio);padding:26px 20px 10px;box-shadow:0 1px 0 var(--linha),0 18px 40px -28px rgba(58,36,52,.45);max-width:640px}
+.folha-topo{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-bottom:16px;border-bottom:1px solid var(--linha);margin-bottom:6px}
+.folha-topo strong{font-family:var(--serif);font-weight:400;font-size:22px}
+.folha-topo span{font-size:13px;color:var(--texto-suave)}
+.refeicoes{list-style:none;margin:0;padding:0}
+.refeicoes li{display:grid;grid-template-columns:58px 1fr;gap:14px;padding:16px 0;border-bottom:1px dashed var(--linha)}
+.refeicoes li:last-child{border-bottom:0}
+.refeicoes time{font-variant-numeric:tabular-nums;font-weight:600;color:var(--ouro-texto);font-size:15px;padding-top:2px}
+.refeicoes h3{font-family:var(--sans);font-weight:600;font-size:16px;line-height:1.3;margin-bottom:4px}
+.refeicoes p{font-size:15px;color:var(--texto-suave)}
+.nota{font-size:14px;color:var(--texto-suave);margin-top:18px;max-width:40em}
+
+/* acompanhamento */
+.passos{list-style:none;margin:28px 0 0;padding:0;display:flex;flex-direction:column;gap:22px;counter-reset:p}
+.passos li{counter-increment:p;display:grid;grid-template-columns:44px 1fr;gap:12px}
+.passos li::before{content:counter(p);font-family:var(--serif);font-style:italic;font-size:30px;line-height:1;color:var(--ouro)}
+.passos h3{font-family:var(--sans);font-weight:600;font-size:17px;line-height:1.3;margin-bottom:4px}
+.passos p{color:var(--texto-suave);font-size:16px}
+
+/* pacientes */
+.pacientes{background:var(--ameixa);color:var(--champanhe)}
+.pacientes .titulo{color:var(--champanhe)}
+.conversa{display:flex;flex-direction:column;gap:12px;max-width:420px}
+.balao{background:var(--ameixa-2);color:var(--leite);padding:13px 17px;border-radius:4px 18px 18px 18px;align-self:flex-start;max-width:85%}
+.balao.pendente{background:transparent;border:1px dashed #7A5E72;color:var(--lilas)}
+.pacientes .rodape-sec{font-size:14px;color:var(--lilas);margin-top:18px}
+
+/* onde */
+.locais{display:flex;flex-direction:column;gap:14px}
+.local{border:1px solid var(--linha);border-radius:var(--raio);padding:22px 20px;display:flex;flex-direction:column;gap:6px;background:#FFFDF9}
+.local h3{font-family:var(--sans);font-weight:600;font-size:18px;line-height:1.3}
+.local p{color:var(--texto-suave);font-size:16px}
+.local.online{background:var(--ameixa);border-color:var(--ameixa);color:var(--champanhe)}
+.local.online p{color:var(--lilas)}
+
+/* duvidas */
+.duvidas{border-top:1px solid var(--linha)}
+.duvidas details{border-bottom:1px solid var(--linha)}
+.duvidas summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;min-height:56px;font-weight:500;font-size:17px}
+.duvidas summary::-webkit-details-marker{display:none}
+.duvidas summary::after{content:"";flex:0 0 12px;height:12px;border-right:1.5px solid var(--ameixa);border-bottom:1.5px solid var(--ameixa);transform:rotate(45deg) translateY(-3px);transition:transform .2s}
+.duvidas details[open] summary::after{transform:rotate(225deg) translateY(-3px)}
+.duvidas details p{padding:0 0 20px;color:var(--texto-suave);max-width:36em}
+
+/* final */
+.final{padding-top:24px;padding-bottom:96px}
+.final .logo{--logo:var(--ameixa);margin-bottom:28px;align-self:flex-start}
+.final .logo-nome{font-size:22px}
+.final .logo-fio{width:58%;margin:8px 0 7px}
+.final .logo-sub{font-size:11px}
+.final h2{font-size:clamp(40px,11vw,76px);margin-bottom:24px;max-width:10em}
+footer{border-top:1px solid var(--linha)}
+footer .wrap{padding-top:24px;padding-bottom:110px;display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between;font-size:14px;color:var(--texto-suave)}
+
+/* barra fixa celular */
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(246,241,235,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid var(--linha)}
+.barra .botao{width:100%}
+
+@media (min-width:900px){
+  :root{--pad:40px}
+  .topo nav .so-desk{display:inline}
+  .hero{padding-top:24px;padding-bottom:96px}
+  .hero-grade{display:grid;grid-template-columns:7fr 5fr;gap:64px;align-items:end}
+  .hero-texto{order:-1;padding-bottom:12px}
+  .hero-marca{justify-content:flex-start}
+  .selo{padding:40px 0}
+  .palco{margin:0 0 0 auto}
+  .dupla{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+  .dupla .titulo{margin-bottom:0}
+  .plano .titulo{margin-bottom:22px}
+  .publico{display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:baseline}
+  .plano .dupla{align-items:center}
+  .proposito-grade{display:grid;grid-template-columns:5fr 7fr;gap:72px;align-items:center}
+  .folha{padding:32px 32px 14px}
+  .locais{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .barra{display:none}
+  footer .wrap{padding-bottom:28px}
+  section.bloco{padding-top:112px;padding-bottom:112px}
+  .proposito .wrap{padding-top:112px;padding-bottom:112px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;scroll-behavior:auto !important}}
+</style>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="wrap topo">
+  <a class="logo logo-p" href="#" aria-label="Klarine Oliveira, nutricionista. Início">
+    <span class="logo-nome">KLARINE OLIVEIRA</span><span class="logo-fio"></span><span class="logo-sub">NUTRICIONISTA</span>
+  </a>
+  <nav aria-label="Principal">
+    <a class="so-desk" href="#plano">O plano</a>
+    <a class="so-desk" href="#onde">Onde atendo</a>
+    <a class="so-desk" href="#duvidas">Dúvidas</a>
+    <a class="link-agendar" href="https://ig.me/m/klarineoliveiranutri" target="_blank" rel="noopener">Agendar</a>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+<section class="hero wrap">
+  <div class="hero-grade">
+    <div class="palco">
+      <figure class="retrato">
+        <img src="img/klarine-ensaio-1060.jpg" srcset="img/klarine-ensaio-640.jpg 640w, img/klarine-ensaio-1060.jpg 1060w" sizes="(min-width: 900px) 440px, 88vw" width="1060" height="1413" alt="Klarine Oliveira sentada numa poltrona bege, com blusa preta e saia branca" fetchpriority="high">
+      </figure>
+    </div>
+    <div class="hero-texto">
+      <div class="hero-marca">
+        <h1 class="selo">
+          <span class="selo-n" aria-hidden="true">N</span>
+          <span class="logo">
+            <span class="logo-nome">KLARINE OLIVEIRA</span><span class="logo-fio"></span><span class="logo-sub">NUTRICIONISTA</span>
+          </span>
+        </h1>
+      </div>
+      <p class="lead">Te ajudo a emagrecer ou ganhar massa comendo de um jeito que cabe na tua rotina, no consultório ou online.</p>
+      <div class="acoes">
+        <a class="botao" href="https://ig.me/m/klarineoliveiranutri" target="_blank" rel="noopener">Agendar pelo Instagram</a>
+        <span class="crn">CRN 17599. Pós em nutrição clínica e esportiva.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proposito" aria-label="Propósito">
+  <div class="wrap proposito-grade">
+    <figure>
+      <img src="img/klarine-retrato-746.jpg" srcset="img/klarine-retrato-480.jpg 480w, img/klarine-retrato-746.jpg 746w" sizes="(min-width: 900px) 420px, 88vw" width="746" height="932" alt="Retrato da Klarine Oliveira com a mão no rosto" loading="lazy">
+    </figure>
+    <blockquote>
+      Meu propósito é te ajudar a conquistar teus objetivos através de uma alimentação saudável, individualizada e que cabe na tua rotina.
+      <cite>Klarine</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="bloco wrap" aria-labelledby="t-quem">
+  <h2 class="titulo" id="t-quem">Quem eu acompanho</h2>
+  <div class="publicos">
+    <div class="publico">
+      <h3>Quem quer emagrecer</h3>
+      <p>Sem cortar tudo o que você gosta. Quando a gente se priva demais, o emagrecimento tende a dar errado. O caminho é organização e prazer em comer.</p>
+    </div>
+    <div class="publico">
+      <h3>Quem treina e quer ganhar massa</h3>
+      <p>O que comer antes e depois do treino, se a creatina faz sentido pra você e como encaixar tudo na tua semana.</p>
+    </div>
+    <div class="publico">
+      <h3>Quem precisa de cuidado com a digestão</h3>
+      <p>Intestino preso, refluxo e alimentação ao longo do ciclo menstrual também fazem parte do meu dia a dia de consultório.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloco plano" id="plano" aria-labelledby="t-plano">
+  <div class="wrap dupla">
+    <div>
+      <h2 class="titulo" id="t-plano">Como fica um dia no teu plano</h2>
+      <p class="texto">Cada plano é montado em cima da tua rotina, dos teus horários e do que você gosta de comer. Este é só um exemplo, com receitas que eu já compartilhei no Instagram.</p>
+    </div>
+    <div>
+      <article class="folha" aria-label="Exemplo de plano alimentar">
+        <div class="folha-topo">
+          <strong>Plano de exemplo</strong>
+          <span>segunda-feira</span>
+        </div>
+        <ol class="refeicoes">
+          <li>
+            <time>07:00</time>
+            <div><h3>Café da manhã</h3><p>Suco de 2 laranjas, 1 folha de couve, 1 cenoura e 200 ml de água de coco.</p></div>
+          </li>
+          <li>
+            <time>12:00</time>
+            <div><h3>Almoço</h3><p>Prato colorido, com a abobrinha temperada como acompanhamento.</p></div>
+          </li>
+          <li>
+            <time>16:00</time>
+            <div><h3>Lanche da tarde</h3><p>Sanduíche natural: 50 g de frango desfiado, 1 colher de requeijão light, cenoura ralada e orégano.</p></div>
+          </li>
+          <li>
+            <time>18:30</time>
+            <div><h3>Pré-treino</h3><p>Uma refeição leve e com energia, ajustada ao horário e ao tipo do teu treino.</p></div>
+          </li>
+          <li>
+            <time>22:00</time>
+            <div><h3>Ceia</h3><p>Coalhada integral com mel, tangerina, uva, uva-passa e chia.</p></div>
+          </li>
+        </ol>
+      </article>
+      <p class="nota">Quantidades e horários mudam de pessoa pra pessoa. Por isso o plano é feito na consulta.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloco wrap dupla" aria-labelledby="t-acomp">
+  <h2 class="titulo" id="t-acomp">Do primeiro contato aos retornos</h2>
+  <div>
+    <p class="texto">Você me chama no direct, a gente combina o dia e escolhe se vai ser no consultório ou por vídeo.</p>
+    <ol class="passos">
+      <li><div><h3>Consulta</h3><p>Conversamos sobre tua rotina, o que você come hoje, como treina e onde quer chegar.</p></div></li>
+      <li><div><h3>Plano alimentar</h3><p>Você recebe um plano individualizado, com refeições possíveis de fazer na vida real.</p></div></li>
+      <li><div><h3>Retornos</h3><p>A gente ajusta o plano conforme você evolui, sem começar do zero.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="bloco pacientes" aria-labelledby="t-pac">
+  <div class="wrap dupla">
+    <h2 class="titulo" id="t-pac">O que chega dos pacientes</h2>
+    <div>
+      <div class="conversa">
+        <p class="balao">Nutri maravilhosa ❤️</p>
+        <p class="balao">Seguindo na dieta</p>
+        <p class="balao pendente">espaço para outro relato autorizado</p>
+      </div>
+      <p class="rodape-sec">Mensagens que os pacientes compartilham no destaque “Pacientes” do Instagram.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloco wrap" id="onde" aria-labelledby="t-onde">
+  <h2 class="titulo" id="t-onde">Onde eu atendo</h2>
+  <div class="locais">
+    <div class="local">
+      <h3>Medical Centro Clínico</h3>
+      <p>Endereço e horários a confirmar</p>
+    </div>
+    <div class="local">
+      <h3>Clínica Dr. Nilson Porto</h3>
+      <p>Endereço e horários a confirmar</p>
+    </div>
+    <div class="local online">
+      <h3>Online</h3>
+      <p>Por chamada de vídeo, de qualquer cidade.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloco wrap dupla" id="duvidas" aria-labelledby="t-duv">
+  <h2 class="titulo" id="t-duv">Antes de marcar</h2>
+  <div class="duvidas">
+    <details>
+      <summary>O online funciona igual ao presencial?</summary>
+      <p>Funciona. A consulta é por vídeo e você recebe o plano individualizado do mesmo jeito.</p>
+    </details>
+    <details>
+      <summary>Vou ter que parar de comer o que gosto?</summary>
+      <p>Não. O plano é montado em cima do que você gosta e da tua rotina. Privação demais costuma atrapalhar o resultado.</p>
+    </details>
+    <details>
+      <summary>Atende quem treina?</summary>
+      <p>Sim. Tenho pós em nutrição esportiva e acompanho quem quer ganhar massa e melhorar o rendimento no treino.</p>
+    </details>
+    <details>
+      <summary>Quanto custa a consulta?</summary>
+      <p>Os valores eu passo no direct, junto com os horários disponíveis.</p>
+    </details>
+  </div>
+</section>
+
+<section class="final wrap" aria-labelledby="t-fim">
+  <span class="logo" aria-hidden="true"><span class="logo-nome">KLARINE OLIVEIRA</span><span class="logo-fio"></span><span class="logo-sub">NUTRICIONISTA</span></span>
+  <h2 id="t-fim">Bora montar o teu plano?</h2>
+  <a class="botao" href="https://ig.me/m/klarineoliveiranutri" target="_blank" rel="noopener">Agendar pelo Instagram</a>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Klarine Oliveira, nutricionista. CRN 17599</span>
+    <a href="https://www.instagram.com/klarineoliveiranutri/" target="_blank" rel="noopener">@klarineoliveiranutri</a>
+    <span>Site feito por <a href="https://www.instagram.com/anderson.fsfs/" target="_blank" rel="noopener">AndersonDev</a></span>
+  </div>
+</footer>
+
+<div class="barra">
+  <a class="botao" href="https://ig.me/m/klarineoliveiranutri" target="_blank" rel="noopener">Agendar consulta</a>
+</div>
+</body>
+</html>
